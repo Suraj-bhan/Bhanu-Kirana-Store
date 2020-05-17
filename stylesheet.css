@@ -49,6 +49,8 @@ padding: .2em 1em;
 color: white;
 background-color:black; 
 }
+.sideleft ul li a{
+margin:5px;}
  
 #nav a:hover, .sideleft a:hover {
  
