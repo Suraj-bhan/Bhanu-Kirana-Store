@@ -61,6 +61,18 @@ background-color:white;
  padding:10px;
  border-radius: 5px;
 }
+
+.sideleft {
+background-color: #e5e4d7;
+font-size: 105%;
+padding: 20px;
+width:260px;
+float:left;
+border-radius: 5px;
+margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:10px;;
+clear:left;
+}
+
 #footer {
 background-color: #5c755e;
 margin: 10px;
