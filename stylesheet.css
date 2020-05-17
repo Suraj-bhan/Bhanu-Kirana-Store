@@ -25,7 +25,7 @@ margin: 10px;
 }
 */
  
-#nav ul {
+#nav ul, .sideleft ul {
    
 padding: 5px;
 margin: 10px;
