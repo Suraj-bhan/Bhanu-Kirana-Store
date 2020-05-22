@@ -1,7 +1,7 @@
 *{box-sizing: border-box;
 }
 
- body{
+body{
 background-color:#FFFF33;
 margin: 0px;
 font-family:  Georgia,Verdana, serif;
@@ -11,9 +11,9 @@ font-size: 14px;
 
 #home{
 background-color:White;
-margin: 10px;
-height: 60px;
-border-radius: 5px;
+/*margin: 10px;*/
+height: 80px;
+/*border-radius: 5px;*/
 }
 
 /*
@@ -26,70 +26,79 @@ margin: 10px;
 */
  
 #nav ul{
-   
 padding: 5px;
-margin: 10px;
-border-radius: 5px;
+margin: 0px;
+/*border-radius: 5px;*/
 list-style-type: none;
 text-align: center;
 background-color: black;
- 
 }
 
 #nav ul li {
-   
-display: inline;
-
+   display: inline;
 }
  
-#nav ul li a, .sideleft ul li a {
+#nav ul li a {
 font-family: Arial;   
 text-decoration:none;
 padding: .2em 1em;
 color: white;
 background-color:black; 
 }
-.sideleft ul li a{
-margin:5px;}
- 
+
+.sideleft {
+background-color: #e5e4d7;
+font-size: 105%;
+width:260px;
+float:left;
+border-radius: 5px;
+margin:10px;
+clear:left;
+/*clear:left;*/
+}
+.sideleft ul {
+padding: 5px;
+border-radius: 5px;
+list-style-type: none;
+text-align: center;
+}
+.sideleft ul li{
+margin-bottom:9px;  
+}
+
+.sideleft ul li a {
+border-radius: 5px;
+font-family: Arial;   
+text-decoration:none;
+padding: .2em 1em;
+color: white;
+background-color:black; 
+
+}
+
 #nav a:hover, .sideleft a:hover {
- 
 color: black;
 background-color:white;
- 
 }
 
 .main{
 color: brown;
 background-color:white;
- margin:5px 10px 10px 10px;
- padding:10px;
+ margin:10px 10px 5px 275px;
+ padding:15px;
  border-radius: 5px;
+ text-align: justify;
+}
+.main1{
+	margin:5px 10px 10px 275px;
 }
 
-.sideleft {
-background-color: #e5e4d7;
-font-size: 105%;
-padding: 20px;
-width:260px;
-float:left;
-border-radius: 5px;
-margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:10px;
-/*clear:left;*/
-}
 
-.sideleft ul {
-padding: 5px;
-margin: 10px;
-border-radius: 5px;
-list-style-type: none;
-text-align: center;
-}
 
 #footer {
 background-color: #5c755e;
 margin: 10px;
-height: 60px;
+height: 75px;
 clear:both;
 border-radius: 5px;
 color: #efe5d0;
@@ -103,7 +112,7 @@ font-size: 90%;
 padding: 5px;
 list-style-type: none;
 text-align: center;
-margin: 10px;
+margin: 5px;
 border-radius: 5px;
  
 }
@@ -142,4 +151,12 @@ margin: 0px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+h2{
+font-size: 150%;
+text-align:center;
+color:black;
+font-family: "Gill Sans", Arial, sans-serif;
+text-decoration: underline;
 }
